@@ -1,6 +1,6 @@
 {
   "name": "cra-template-ego-typescript",
-  "version": "0.0.0-semantically-released",
+  "version": "1.0.0",
   "scripts": {
     "prepare": "husky install",
     "lint": "lint-staged",
