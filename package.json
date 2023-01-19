@@ -6,7 +6,8 @@
     "start": "craco start",
     "build": "craco build",
     "prepare": "husky install",
-    "lint": "lint-staged"
+    "lint": "lint-staged",
+    "commit": "git-cz"
   },
   "keywords": [
     "react",
@@ -40,7 +41,15 @@
       "eslint --fix"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
   "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@craco/craco": "^7.0.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -50,17 +59,18 @@
     "@types/react-dom": "^18.0.10",
     "@types/styled-components": "^5.1.26",
     "axios": "^1.2.3",
+    "commitizen": "^4.2.6",
+    "cz-customizable": "^7.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.2",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.6",
     "typescript": "^4.9.4",
-    "web-vitals": "^2.1.4",
-    "@craco/craco": "^7.0.0",
-    "eslint-config-prettier": "^8.6.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.1.0",
-    "prettier": "^2.8.3"
+    "web-vitals": "^2.1.4"
   }
 }
