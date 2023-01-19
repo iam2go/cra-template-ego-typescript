@@ -1,10 +1,7 @@
 {
   "name": "cra-template-ego-typescript",
   "version": "0.0.0-development",
-  "private": true,
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
     "prepare": "husky install",
     "lint": "lint-staged",
     "commit": "git-cz",
