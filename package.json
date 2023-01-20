@@ -24,6 +24,7 @@
     "template",
     "template.json"
   ],
+  "license": "MIT",
   "eslintConfig": {
     "extends": [
       "react-app",
