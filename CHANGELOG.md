@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/iam2go/cra-template-ego-typescript/compare/v1.0.2...v1.0.3) (2023-02-08)
+
+
+### Bug Fixes
+
+* commit lint 에러 수정 ([0cb49ce](https://github.com/iam2go/cra-template-ego-typescript/commit/0cb49ceb3bdebfee03a17f2b9ec4509909d836f7))
+* commitlint 에러 수정 ([7ac4b0f](https://github.com/iam2go/cra-template-ego-typescript/commit/7ac4b0faa754386bb16df3c7c6a8b99481a18def))
+* husky 에러 수정 ([e6db12d](https://github.com/iam2go/cra-template-ego-typescript/commit/e6db12d47541980ae793d44d96e4a9050bb94ecd))
+
 ## [1.0.1](https://github.com/iam2go/cra-template-ego-typescript/compare/v1.0.0...v1.0.1) (2023-01-25)
 
 
